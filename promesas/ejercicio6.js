@@ -1,8 +1,13 @@
-let datos = async function cargarDatos() {
+let datos = (async function cargarDatos() {
   let respuesta = await fetch("https://jsonplaceholder.typicode.com/users");
   let datos = await respuesta.json();
-  console.log(datos);
-  return datos;
-};
+ 
 
 
+  
+})()
+
+
+//crear una funcion reciba el elemento html
+
+//insertarle de manera dinamica los datos
